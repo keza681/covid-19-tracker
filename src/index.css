@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+  background-color: #385892;
+}
+
+/* navigation bar styles */
+nav {
+  padding: 0.5% 6%;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinks img {
+  background-color: black;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.mainTitle a {
+  color: white;
+  text-decoration: none;
+}
+
+.navIcons {
+  display: flex;
+  flex-direction: row;
+}
+
+.navIcon {
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6%;
+}
+
+.myDate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+
+.date {
+  margin-left: 10%;
+}
+
+.inputSearch {
+  border: none;
+  border-radius: 5px;
+  width: 15%;
+  padding: 0.5% 2%;
+}
+
+.cover {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 18rem;
+  width: 100%;
+  background-image: url('./assets/covid.jpg');
+  background-position: -900px -400px;
+}
+
+.title {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.myCounty {
+  padding: 2%;
+  list-style: none;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #4369b2;
+}
+
+@media (min-width: 600px) {
+  .myCounty { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .myCounty { grid-template-columns: repeat(6, 1fr); }
+}
+
+.countryCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #324c7c;
+  padding: 5% 10% 0 10%;
+  color: white;
+  border: 0.1px solid rgb(63, 28, 28);
+}
+
+.countryCard:hover {
+  border: none;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.mapBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.map {
+  width: 7rem;
+  height: 7rem;
+  opacity: 0.6;
+}
+
+.regionContainer {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.detailsRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding-left: 5%;
+}
+
+.regionContainer li:nth-child(2n+2) {
+  background-color: #385892;
+}
+
+.map2 {
+  width: 12rem;
+  height: 12rem;
+  opacity: 0.6;
+}
+
+.detailsBaner {
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.countryStatus {
+  margin-left: 10%;
+}
