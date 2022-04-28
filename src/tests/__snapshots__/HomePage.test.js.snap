@@ -180,6 +180,56 @@ exports[`Homepage test Should display item from api 1`] = `
 </div>
 `;
 
+exports[`Homepage test Should render detail page by rendering 1`] = `
+<div>
+  <header
+    className="cover"
+  >
+    <div
+      className="title"
+    >
+      <div
+        className="logo"
+      >
+        <div>
+          <h1>
+            Covid Cases
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="search"
+  >
+    <div
+      className="myDate"
+    >
+      <h2>
+         Stats by country
+      </h2>
+      <h3
+        className="date"
+      >
+        2022-04-28
+      </h3>
+    </div>
+    <input
+      className="inputSearch"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    className="myCounty"
+  />
+</div>
+`;
+
 exports[`The test of welcome page component Should also render diffetent part of the app by routing 1`] = `
 <div>
   <header
