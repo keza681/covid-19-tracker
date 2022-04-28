@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page test countries container test 1`] = `
+<div>
+  <header
+    className="cover"
+  >
+    <div
+      className="title"
+    >
+      <div
+        className="logo"
+      >
+        <div>
+          <h1>
+            Covid Cases
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="search"
+  >
+    <div
+      className="myDate"
+    >
+      <h2>
+         Stats by country
+      </h2>
+      <h3
+        className="date"
+      >
+        2022-04-28
+      </h3>
+    </div>
+    <input
+      className="inputSearch"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    className="myCounty"
+  />
+</div>
+`;
+
+exports[`Home page test country cards test 1`] = `
+<div
+  className="card"
+>
+  <a
+    className=""
+    href="/Iran"
+    onClick={[Function]}
+  >
+    <li
+      className="countryCard"
+    >
+      <div
+        className="mapBox"
+      >
+        <img
+          alt="covid img"
+          className="map"
+          src="https://cdn.pixabay.com/photo/2020/04/29/07/54/coronavirus-5107715_960_720.png"
+        />
+      </div>
+      <p>
+        Iran
+      </p>
+      <h4 />
+    </li>
+  </a>
+</div>
+`;
+
+exports[`Homepage test Should also render diffetent part of the app by routing 1`] = `
+<div>
+  <header
+    className="cover"
+  >
+    <div
+      className="title"
+    >
+      <div
+        className="logo"
+      >
+        <div>
+          <h1>
+            Covid Cases
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="search"
+  >
+    <div
+      className="myDate"
+    >
+      <h2>
+         Stats by country
+      </h2>
+      <h3
+        className="date"
+      >
+        2022-04-28
+      </h3>
+    </div>
+    <input
+      className="inputSearch"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    className="myCounty"
+  />
+</div>
+`;
+
+exports[`Homepage test Should display item from api 1`] = `
+<div>
+  <header
+    className="cover"
+  >
+    <div
+      className="title"
+    >
+      <div
+        className="logo"
+      >
+        <div>
+          <h1>
+            Covid Cases
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="search"
+  >
+    <div
+      className="myDate"
+    >
+      <h2>
+         Stats by country
+      </h2>
+      <h3
+        className="date"
+      >
+        2022-04-28
+      </h3>
+    </div>
+    <input
+      className="inputSearch"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    className="myCounty"
+  />
+</div>
+`;
+
+exports[`The test of welcome page component Should also render diffetent part of the app by routing 1`] = `
+<div>
+  <header
+    className="cover"
+  >
+    <div
+      className="title"
+    >
+      <div
+        className="logo"
+      >
+        <div>
+          <h1>
+            Covid Cases
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="search"
+  >
+    <div
+      className="myDate"
+    >
+      <h2>
+         Stats by country
+      </h2>
+      <h3
+        className="date"
+      >
+        2022-04-28
+      </h3>
+    </div>
+    <input
+      className="inputSearch"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    className="myCounty"
+  />
+</div>
+`;
+
+exports[`The test of welcome page component Should display all the rendered items from api 1`] = `
+<div>
+  <header
+    className="cover"
+  >
+    <div
+      className="title"
+    >
+      <div
+        className="logo"
+      >
+        <div>
+          <h1>
+            Covid Cases
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="search"
+  >
+    <div
+      className="myDate"
+    >
+      <h2>
+         Stats by country
+      </h2>
+      <h3
+        className="date"
+      >
+        2022-04-28
+      </h3>
+    </div>
+    <input
+      className="inputSearch"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    className="myCounty"
+  />
+</div>
+`;
