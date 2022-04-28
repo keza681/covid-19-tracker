@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries snapshot renders correctly 1`] = `
+<div>
+  <nav>
+    <section
+      className="navLinks"
+    >
+      <div>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="back"
+            src="https://img.icons8.com/ios-filled/24/ffffff/back.png"
+          />
+        </a>
+      </div>
+      <div
+        className="navIcons"
+      >
+        <img
+          alt="mic"
+          className="navIcon"
+          src="https://img.icons8.com/fluency-systems-filled/24/ffffff/microphone.png"
+        />
+        <img
+          alt="settings"
+          className="navIcon"
+          src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/24/ffffff/external-setting-essentials-pack-tanah-basah-glyph-tanah-basah.png"
+        />
+      </div>
+    </section>
+  </nav>
+  <div>
+    <header
+      className="cover"
+    >
+      <div
+        className="title"
+      >
+        <div
+          className="logo"
+        >
+          <div>
+            <h1>
+              Covid Cases
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="search"
+    >
+      <div
+        className="myDate"
+      >
+        <h2>
+           Stats by country
+        </h2>
+        <h3
+          className="date"
+        >
+          2022-04-28
+        </h3>
+      </div>
+      <input
+        className="inputSearch"
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="search here"
+        type="text"
+        value=""
+      />
+    </div>
+    <ul
+      className="myCounty"
+    />
+  </div>
+</div>
+`;
+
+exports[`Test of detail page component It should render the details successfully 1`] = `
+<div>
+  <nav>
+    <section
+      className="navLinks"
+    >
+      <div>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="back"
+            src="https://img.icons8.com/ios-filled/24/ffffff/back.png"
+          />
+        </a>
+      </div>
+      <div
+        className="navIcons"
+      >
+        <img
+          alt="mic"
+          className="navIcon"
+          src="https://img.icons8.com/fluency-systems-filled/24/ffffff/microphone.png"
+        />
+        <img
+          alt="settings"
+          className="navIcon"
+          src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/24/ffffff/external-setting-essentials-pack-tanah-basah-glyph-tanah-basah.png"
+        />
+      </div>
+    </section>
+  </nav>
+  <div>
+    <header
+      className="cover"
+    >
+      <div
+        className="title"
+      >
+        <div
+          className="logo"
+        >
+          <div>
+            <h1>
+              Covid Cases
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="search"
+    >
+      <div
+        className="myDate"
+      >
+        <h2>
+           Stats by country
+        </h2>
+        <h3
+          className="date"
+        >
+          2022-04-28
+        </h3>
+      </div>
+      <input
+        className="inputSearch"
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="search here"
+        type="text"
+        value=""
+      />
+    </div>
+    <ul
+      className="myCounty"
+    />
+  </div>
+</div>
+`;
