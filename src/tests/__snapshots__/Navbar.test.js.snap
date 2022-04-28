@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`router test 1`] = `
+<nav>
+  <section
+    className="navLinks"
+  >
+    <div>
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="back"
+          src="https://img.icons8.com/ios-filled/24/ffffff/back.png"
+        />
+      </a>
+    </div>
+    <div
+      className="navIcons"
+    >
+      <img
+        alt="mic"
+        className="navIcon"
+        src="https://img.icons8.com/fluency-systems-filled/24/ffffff/microphone.png"
+      />
+      <img
+        alt="settings"
+        className="navIcon"
+        src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/24/ffffff/external-setting-essentials-pack-tanah-basah-glyph-tanah-basah.png"
+      />
+    </div>
+  </section>
+</nav>
+`;
