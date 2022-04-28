@@ -8,7 +8,6 @@ body {
   background-color: #385892;
 }
 
-/* navigation bar styles */
 nav {
   padding: 0.5% 6%;
 }
@@ -73,7 +72,7 @@ nav {
   flex-direction: row-reverse;
   height: 18rem;
   width: 100%;
-  background-image: url('./assets/covid.jpg');
+  background-image: url('./assets/covid.png');
   background-position: -900px -400px;
 }
 
