@@ -13,8 +13,7 @@ Major language
 
 
 ## Live demo
-(not yet available)
-
+[Live demo](https://aquamarine-concha-9215bd.netlify.app/)
 
 ## Getting Started
 
