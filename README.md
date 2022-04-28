@@ -1,6 +1,6 @@
 # Covid-19-Tracker
 
->This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you I created making use of React and Redux.
+>This React capstone project is about building a mobile web application to check a list of affected countries by covid19 created by making use of React and Redux.
 
 ## Built With
 
@@ -38,7 +38,6 @@ By running this project loccally, you will be required to have:
 👤 **Keza**
 
 - GitHub: [Visit my github](https://github.com/keza681)
-- Twitter: [Visit my twitter](https://twitter.com/LKeza19)
 - LinkedIn: [Linkedin Profile](https://www.linkedin.com/in/linda-keza-a10150218/)
 
 
