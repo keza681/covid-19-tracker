@@ -53,7 +53,7 @@ function Regions() {
   });
 
   const {
-    name, regions, cases_confirmed, total_deaths, open_cases, recovered,
+    name, regions, today_confirmed, today_deaths, today_recovered,
   } = country;
 
   return (
@@ -73,23 +73,15 @@ function Regions() {
           <h2>{name}</h2>
           <h4>
             Today Confirmed:
-            {' '}
-            {cases_confirmed}
+            {today_confirmed}
           </h4>
           <h4>
             Today Deaths:
-            {' '}
-            {total_deaths}
-          </h4>
-          <h4>
-            Today Open Cases:
-            {' '}
-            {open_cases}
+            {today_deaths}
           </h4>
           <h4>
             Today Recovered:
-            {' '}
-            {recovered}
+            {today_recovered}
           </h4>
         </div>
       </div>
@@ -99,16 +91,16 @@ function Regions() {
       <ul className="regionContainer">
         {regions.length === 0 ? (<h2 style={{ margin: '0.5% 5%' }}>No data available </h2>)
           : regions.map(({
-            id, name, cases_confirmed, total_deaths, open_cases, recovered,
+            id, name, today_confirmed, today_deaths, open_cases, today_recovered,
           }) => (
             <Region
               key={id}
               id={id}
               name={name}
-              Confirmed={cases_confirmed}
-              allDeaths={total_deaths}
+              Confirmed={today_confirmed}
+              allDeaths={today_deaths}
               newCases={open_cases}
-              allRecovered={recovered}
+              allRecovered={today_recovered}
             />
           ))}
       </ul>

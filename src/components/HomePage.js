@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 /* eslint-disable camelcase */
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
@@ -17,7 +16,7 @@ const actualDate = () => {
   return dateString;
 };
 
-export function Country({ name, cases_confirmed }) {
+export function Country({ name, today_confirmed }) {
   return (
     <div className="card">
       <NavLink to={`/${name}`}>
@@ -30,7 +29,7 @@ export function Country({ name, cases_confirmed }) {
             />
           </div>
           <p>{name}</p>
-          <h4>{cases_confirmed}</h4>
+          <h4>{today_confirmed}</h4>
         </li>
       </NavLink>
     </div>
@@ -39,7 +38,7 @@ export function Country({ name, cases_confirmed }) {
 
 Country.propTypes = {
   name: PropTypes.string.isRequired,
-  cases_confirmed: PropTypes.number.isRequired,
+  today_confirmed: PropTypes.number.isRequired,
 };
 
 function Countries() {
@@ -69,12 +68,12 @@ function Countries() {
         <input type="text" name="search" id="search" placeholder="search here" value={search} onChange={handleSearch} className="inputSearch" />
       </div>
       <ul className="myCounty">
-        {filteredCountries.map(({ id, name, cases_confirmed }) => (
+        {filteredCountries.map(({ id, name, today_confirmed }) => (
           <Country
             key={id}
             id={id}
             name={name}
-            cases_confirmed={cases_confirmed}
+            today_confirmed={today_confirmed}
           />
         ))}
       </ul>

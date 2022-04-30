@@ -34,10 +34,10 @@ const dataHandler = (fetchedData) => {
   for (let i = 0; i <= obj.length - 1; i += 1) {
     const objdata = obj[i][1];
     const {
-      id, name, regions, cases_confirmed, total_deaths, open_cases, recovered,
+      id, name, regions, today_confirmed, today_deaths, today_recovered,
     } = objdata;
     resultArray.push({
-      id, name, regions, cases_confirmed, total_deaths, open_cases, recovered,
+      id, name, regions, today_confirmed, today_deaths, today_recovered,
     });
   }
   return resultArray;
