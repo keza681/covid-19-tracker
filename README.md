@@ -51,7 +51,7 @@ Leave a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) is originally created by [@Cindy Shin](https://www.behance.net/sakwadesignstudio) with an open [license](https://creativecommons.org/licenses/by-nc/4.0/) of NonCommercial use. Some modifications has been made to fit the needed requirment of the project. This project is designed as an assignment for my school and not for commercial use.
+- The [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) is originally created by [@Nelson Sakwa](https://www.behance.net/sakwadesignstudio) with an open [license](https://creativecommons.org/licenses/by-nc/4.0/) of NonCommercial use. Some modifications has been made to fit the needed requirment of the project. This project is designed as an assignment for my school and not for commercial use.
 
 
 - Hat tip to anyone whose code was used
